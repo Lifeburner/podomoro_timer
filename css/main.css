@@ -1,0 +1,21 @@
+div {
+	text-align: center;
+	border-style: solid;
+	border-color: black;
+}
+
+.display {
+	font-size: 25pt;
+}
+
+#break {
+	padding: 0px 20px 0px 20%;
+}
+
+#work {
+	padding: 0px 20% 0px 20px;
+}
+
+#main-display {
+	font-size: 40pt;
+}

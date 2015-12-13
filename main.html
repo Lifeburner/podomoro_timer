@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-3.3.5-dist/css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+        <meta charset="utf-8">
+		<script src="script/jquery-1.11.3.min.js"></script>
+		<script src="script/lodash.min.js"></script>
+		<script src="script/main.js"></script>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row" id="title">
+				<h1>Pengatur Waktu: Tomat</h1>
+			</div>
+			<div class="row" id="settings">
+				<div class="col-md-12">
+					<div class="col-xs-4" id="break">
+						<span id="break-btn-less">
+							<button class="btn btn-default btn-lg">-</button>
+						</span>
+						<span id="break-time" class="display">5</span>
+						<span id="break-btn-more">
+							<button class="btn btn-default btn-lg">+</button>
+						</span>
+					</div>
+					<div class="col-xs-4" id="work">
+						<span id="work-btn-less">
+							<button class="btn btn-default btn-lg">-</button>
+						</span>
+						<span id="work-time" class="display">25</span>
+						<span id="work-btn-more">
+							<button class="btn btn-default btn-lg">+</button>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="row" id="timer">
+                <div class="col-xs-3">
+					<button class="btn btn-default btn-lg start" id="btn-start">START</button>
+				</div>
+				<div class="col-xs-6" id="main-display">25:00</div>
+				<div class="col-xs-3">
+					<button class="btn btn-default btn-lg" id="btn-stop">STOP</button>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
